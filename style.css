@@ -134,6 +134,13 @@ input{
     margin-top: 70px;
     padding-top: 50px;
 }
+.download .head{
+    width: 90%;
+
+}
+.download .small-text{
+    width: 90%;
+}
 .boxshot{
     display: flex;
     justify-content: space-between;
