@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .hero{
     background-image: url(./img/bg-netflix.jpg);
     background-size: cover;
@@ -28,6 +31,7 @@ nav{
     font-size: 40px;
     font-weight: 700;
     color: red;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
 }
 .sign-in{
     background-color: red;
@@ -42,7 +46,7 @@ nav{
     padding: 20px;
     position: absolute;
     text-align: center;
-    top: 260px;
+    top: 230px;
     right: 200px;
 }
 .unlimited{
@@ -53,19 +57,19 @@ nav{
     margin: auto;
 }
 .watch{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 400;
     color: white;
     width: 60%;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 12px;
 }
 .ready{
     font-size: 18px;
     font-weight: 300;
     color: white;
-    width: 60%;
-    padding-top: 25px;
+    width: 75%;
+    padding-top: 17px;
     padding-bottom: 20px;
     margin: auto;
 }
@@ -75,7 +79,7 @@ nav{
     margin: auto;
 }
 input{
-    padding: 20px 30px;
+    padding: 15px 30px;
     width: 100%;
     color: #333;
     border-radius: 3px 0 0 3px;
@@ -83,9 +87,9 @@ input{
     border: none;
 }
 .g-et{
-    padding: 20px 30px;
+    padding: 15px 30px;
     border: none;
-    width: 35%;
+    width: 40%;
     background-color: red;
     color: white;
     font-size: 20px;
