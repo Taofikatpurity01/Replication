@@ -89,7 +89,7 @@ input{
 .g-et{
     padding: 15px 30px;
     border: none;
-    width: 40%;
+    width: 45%;
     background-color: red;
     color: white;
     font-size: 20px;
@@ -159,9 +159,16 @@ input{
 .stranger{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 2px;
     color: white;
     margin-top: 25px;
+}
+.blue{
+    color: blue;
+}
+.boxshot i{
+    color: white;
+    padding: 40px 20px 0 0;
 }
 .stream{
     background-color: black;
@@ -181,6 +188,7 @@ input{
     background-color: black;
     display: flex;
     justify-content: space-between;
+    border-bottom: 10px solid #333;
 
 }
 .create .head{
@@ -189,4 +197,64 @@ input{
 }
 .create .small-text{
     width: 98%;
+}
+.question{
+    background-color: black;
+    border-bottom: 10px solid #333;
+    padding: 80px;
+}
+.question h1{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    padding: 20PX;
+}
+.frequent{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+}
+.frequent-question{
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 2px;
+    font-size: 25px;
+    color: white;
+}
+.btn{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+   
+}.btn p{
+    color: white;
+    width: 90%;
+    font-size: 18px;
+    padding-left: 70px;
+}
+.footer{
+    background-color: black;
+    padding: 80px;
+    color: #333;
+   
+}
+.footer-txt{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.faq{
+    display: flex;
+    justify-content: space-between;
+    color: #333;
+    padding: 20px 0;
 }
